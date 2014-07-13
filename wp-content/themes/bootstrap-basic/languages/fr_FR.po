@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ThinkLOUD - Theme\n"
+"POT-Creation-Date: 2014-07-10 18:31+0100\n"
+"PO-Revision-Date: 2014-07-10 18:31+0100\n"
+"Last-Translator: Julien LERCH <julienlerchperso-wordpress@yahoo.fr>\n"
+"Language-Team:  <julienlerchperso-wordpress@yahoo.fr>\n"
+"Language: default\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;esc_attr_x;esc_html__;"
+"esc_html_e;_nx;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2;plural=n>2;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Il semblerait que cette page soit introuvable."
+
+#: ../404.php:11
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"La ressource demand&eacute;e est introuvable &agrave; cette adresse. Peut-"
+"&ecirrc;tre la trouverez-vous pamis les liens ci-dessous ?"
+
+#: ../404.php:17 ../searchform.php:11 ../inc/template-tags.php:155
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:97
+msgid "Search &hellip;"
+msgstr "Rechercher &hellip;"
+
+#: ../404.php:20 ../searchform.php:13 ../inc/template-tags.php:158
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:100
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../404.php:31
+msgid "Most Used Categories"
+msgstr "Cat&eacute;gories principales"
+
+#: ../404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez de chercher dans les archives. %1$s"
+
+#: ../archive.php:55
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: ../archive.php:63
+#, php-format
+msgid "Day: %s"
+msgstr "Jour : %s"
+
+#: ../archive.php:66
+#, php-format
+msgid "Month: %s"
+msgstr "Mois : %s"
+
+#: ../archive.php:69
+#, php-format
+msgid "Year: %s"
+msgstr "Année : %s"
+
+#: ../archive.php:72
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:75
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:78
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:81
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:84
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:87
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:20
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "1 com %2$s"
+
+#: ../comments.php:26 ../comments.php:46
+msgid "Comment navigation"
+msgstr "Naviguer dans les commentaires"
+
+#: ../comments.php:28 ../comments.php:48
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires ant&eacute;rieurs"
+
+#: ../comments.php:29 ../comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: ../comments.php:58
+msgid "Comments are closed."
+msgstr "Les commentaires sont ferm&eacute;s."
+
+#: ../comments.php:96
+msgid "Name"
+msgstr "Nom"
+
+#: ../comments.php:102
+msgid "Email"
+msgstr "Adresse email"
+
+#: ../comments.php:108
+msgid "Website"
+msgstr "Site web"
+
+#: ../comments.php:115
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../comments.php:121
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"Vous pouvez utiliser les balises et attributs <abbr title=\"HyperText Markup "
+"Language\">HTML</abbr> suivants : %s"
+
+#: ../content-aside.php:18 ../content-link.php:30 ../content-page.php:15
+#: ../content-postlist.php:30 ../content-quote.php:18 ../content-single.php:19
+#: ../content.php:29
+msgid "Pages:"
+msgstr "Pages :"
+
+#: ../content-aside.php:33 ../content-aside.php:43 ../content-link.php:43
+#: ../content-link.php:53 ../content-quote.php:30 ../content-quote.php:40
+#: ../content-single.php:29 ../content-single.php:32 ../content.php:43
+#: ../content.php:53
+msgid ", "
+msgstr ", "
+
+#: ../content-postlist.php:16
+msgid "Read more"
+msgstr "Lire la suite&nbsp;"
+
+#: ../content-single.php:40
+#, php-format
+msgid ""
+"<span class=\"glyphicon glyphicon-link\"></span> <a href=\"%1$s\" title="
+"\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../footer.php:33
+#, php-format
+msgid "Powered by %s"
+msgstr "Propuls&eacute; par %s"
+
+#: ../footer.php:35
+#, php-format
+msgid "Theme: %s"
+msgstr "Th&egrave;me : %s"
+
+#: ../functions.php:38
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: ../functions.php:65
+msgid "Header right"
+msgstr ""
+
+#: ../functions.php:74
+msgid "Navigation bar right"
+msgstr ""
+
+#: ../functions.php:84
+msgid "Navigation bar below"
+msgstr ""
+
+#: ../functions.php:93
+msgid "Sidebar left"
+msgstr ""
+
+#: ../functions.php:102
+msgid "Sidebar right"
+msgstr ""
+
+#: ../functions.php:113
+msgid "Content above"
+msgstr ""
+
+#: ../functions.php:124
+msgid "Content below"
+msgstr ""
+
+#: ../functions.php:135
+msgid "Footer top"
+msgstr ""
+
+#: ../functions.php:144
+msgid "Footer left"
+msgstr ""
+
+#: ../functions.php:153
+msgid "Footer right"
+msgstr ""
+
+#: ../functions.php:163
+msgid "Footer below"
+msgstr ""
+
+#: ../functions.php:239 ../functions.php:271
+msgid "Frontoffice Name"
+msgstr ""
+
+#: ../functions.php:241 ../functions.php:274
+msgid "Enter a custom frontoffice name"
+msgstr ""
+
+#: ../functions.php:244 ../functions.php:278
+msgid "Show subcatgories ?"
+msgstr ""
+
+#: ../functions.php:249 ../functions.php:284
+msgid "Check to show a list of subcategories before the posts list"
+msgstr ""
+
+#: ../functions.php:252 ../functions.php:288
+msgid "Title of subcategories box"
+msgstr ""
+
+#: ../functions.php:254 ../functions.php:291
+msgid "Enter a title for the subcategories list"
+msgstr ""
+
+#: ../header.php:46
+msgid "Skip to content"
+msgstr ""
+
+#: ../header.php:62
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../image.php:24
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: ../image.php:42
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../image.php:43
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../no-results.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: ../no-results.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../no-results.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"D&eacute;sol&eacute;, aucun r&eacute;sultat ne correspond &agrave;votre "
+"recherche. Veuillez essayer de chercher d'autres termes."
+
+#: ../no-results.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Impossible de trouver ce que vous recherchez. Essayez le formulaire de "
+"recherche."
+
+#: ../search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr "R&eacute;sultats de recherche pour : %s"
+
+#: ../searchform.php:11 ../inc/widgets/BootstrapBasicSearchWidget.php:97
+msgid "Search for:"
+msgstr "Chercher :"
+
+#: ../inc/extras.php:122
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../inc/template-tags.php:17
+msgid "Posted in"
+msgstr "Post&eacute; dans"
+
+#: ../inc/template-tags.php:40
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:42 ../inc/template-tags.php:83
+#: ../inc/template-tags.php:141
+msgid "Edit"
+msgstr "Editer"
+
+#: ../inc/template-tags.php:76
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s &agrave; %2$s"
+
+#: ../inc/template-tags.php:90
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation"
+
+#: ../inc/template-tags.php:95
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">&eacute;crit :</span>"
+
+#: ../inc/template-tags.php:107
+msgid "Reply"
+msgstr "R&eacute;pondre"
+
+#: ../inc/template-tags.php:108
+msgid "Log in to Reply"
+msgstr "Veuillez vous identifier pour r&eacute;pondre"
+
+#: ../inc/template-tags.php:191
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:264
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+"<span class=\"posted-on\">Post&eacute; le %1$s</span><span class=\"byline\"> "
+"par %2$s</span>"
+
+#: ../inc/template-tags.php:272
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les articles de %s"
+
+#: ../inc/template-tags.php:287
+msgid "Tagged"
+msgstr ""
+
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:20
+msgid "Bootstrap Navbar Search"
+msgstr ""
+
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:21
+msgid "Display Search widget for Bootstrap navbar."
+msgstr ""
+
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:43
+msgid "Form alignment:"
+msgstr "Alignement du formulaire"
+
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:45
+msgid "Left"
+msgstr "Gauche"
+
+#: ../inc/widgets/BootstrapBasicSearchWidget.php:46
+msgid "Right"
+msgstr "Droite"
+
+#: ../inc/widgets/JLE_widget.php:13
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:15
+msgid "Use this widget to add breadcrumbs."
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:89 ../inc/widgets/JLE_widget.php:169
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:92
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:95
+msgid "Post format to show:"
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:120
+msgid "Subcategories"
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:122
+msgid "Use this widget to add subcategories."
+msgstr ""
+
+#: ../inc/widgets/JLE_widget.php:172
+msgid "Show post counts"
+msgstr ""
+
+#~ msgid "One comment on %2$s"
+#~ msgid_plural "%1$s comments on %2$s"
+#~ msgstr[0] "1 com %2$s"
+#~ msgstr[1] "%1$s coms sur %2$s"
