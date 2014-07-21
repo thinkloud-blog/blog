@@ -398,6 +398,10 @@ div.page-header-top-right {
 	width		: 500px;
 	background	: rgba(255, 255, 255, .5);
 }
+
+footer#site-footer {
+	background	: url(img/bg.png) !important;
+}
 /*
 body .gab_share_buttons > div {
 	float	: right;
