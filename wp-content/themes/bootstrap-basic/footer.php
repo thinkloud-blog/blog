@@ -42,8 +42,8 @@
 				<?php
 					/* JLE : add footer below widget zone */
 					if (is_active_sidebar('footer-below')) { ?>
-						<div><?php dynamic_sidebar('footer-below'); ?>
 						<hr class="clearfix" />
+						<div><?php dynamic_sidebar('footer-below'); ?>
 				<?php } // endif JLE; ?>
 			</div>
 		</footer>
@@ -51,5 +51,9 @@
 
 		<!--wordpress footer-->
 		<?php wp_footer(); ?>
+		<p id="cookies">
+En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies.
+Pour en savoir plus <a href="/mentions-legales">cliquez ici</a>.
+		</p>
 	</body>
 </html>
