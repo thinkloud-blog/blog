@@ -36,6 +36,24 @@ This theme built with Twitter Bootstrap v.3. It is basic theme with basic style 
 	body article {
 		font-size	: 135%;
 	}
+	body #cookies {
+		position	: absolute;
+		top			: 0;
+		right		: 0;
+		font-size	: 75%;
+		padding		: 2px;
+		width		: 50%;
+		background	: rgba(255, 255, 255, .5);
+	}
+	body header {
+		margin-top	: 0;
+	}
+	div.page-header-top-right {
+		margin-top	: 55px;
+	}
+	body .widget.gabfire_social_widget a {
+		float	: right;
+	}
 }
 /*
 Required WordPress CSS
@@ -74,7 +92,9 @@ Required WordPress CSS
 }
 
 /* JLE : styling subcategories lists with nice numbers */
-
+header {
+	margin-top	: 25px;
+}
 main header h1 {
 	margin-top :0 ;
 }
@@ -383,19 +403,13 @@ article .btn {
 .site-branding {
 	position	: relative;
 }
-div.page-header-top-right {
-	position	: absolute;
-	bottom		: 0;
-	right		: 0;
-	width		: 25%;
-}
 #cookies {
-	position	: absolute;
+	position	: fixed;
 	top			: 0;
 	right		: 0;
 	font-size	: 75%;
 	padding		: 2px;
-	width		: 500px;
+	width		: 100%;
 	background	: rgba(255, 255, 255, .5);
 }
 
@@ -424,7 +438,6 @@ body .juiz_sps_links .juiz-sps-item a:hover {
 /* override grabfire social icons because they are dégueulasses*/
 .widget.gabfire_social_widget a {
 	background	: url(img/social/facebook.png) transparent bottom center no-repeat;
-	float	: right;
 }
 .widget.gabfire_social_widget a:hover {
 	background-position: top center;
