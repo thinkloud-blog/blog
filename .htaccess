@@ -1,4 +1,41 @@
 
 # BEGIN WordPress
-
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
 # END WordPress
+
+RewriteEngine On
+# CACHER LOGIN, REGISTER, ADMIN
+# wp-login = auth.php
+#RewriteRule ^auth.php/?$ /wp-login.php?CLEF [R,L]
+# wp-admin = admin
+#RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in_.*$
+#RewriteRule ^admin/?$ /wp-login.php?CLEF&redirect_to=/wp-admin/ [R,L]
+#
+#RewriteRule ^admin/?$ /wp-admin/?CLEF [R,L]
+# wp-login register = user
+#RewriteRule ^user/?$ /wp-login.php?CLEF&action=register [R,L]
+#
+#RewriteCond %{SCRIPT_FILENAME} !^(.*)admin-ajax\.php
+#RewriteCond %{HTTP_REFERER} !^(.*)preprod.thinkloud.fr/wp-admin
+#RewriteCond %{HTTP_REFERER} !^(.*)preprod.thinkloud.fr/wp-login\.php
+#RewriteCond %{HTTP_REFERER} !^(.*)preprod.thinkloud.fr/auth.php
+#RewriteCond %{HTTP_REFERER} !^(.*)preprod.thinkloud.fr/admin
+#RewriteCond %{HTTP_REFERER} !^(.*)preprod.thinkloud.fr/user
+#RewriteCond %{QUERY_STRING} !^CLEF
+#RewriteCond %{QUERY_STRING} !^action=logout
+#RewriteCond %{QUERY_STRING} !^action=rp
+#RewriteCond %{QUERY_STRING} !^action=register
+#RewriteCond %{QUERY_STRING} !^action=postpass
+#RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in_.*$
+# Si tentative d&rsquo;entrer sur les ancienne url message : try_again
+#RewriteRule ^.*wp-admin/?|^.*wp-login\.php /try_again [R,L]
+#
+#RewriteCond %{QUERY_STRING} ^loggedout=true
+#RewriteRule ^.*$ /wp-login.php?CLEF [R,L]
