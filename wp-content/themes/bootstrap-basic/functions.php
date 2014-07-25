@@ -422,7 +422,9 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 	function JLE_print_thumb($content) {
 		$thumb = "";
 		if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-			$thumb = get_the_post_thumbnail(null, 'full', array('class'=>'post_thumb'));
+			$desc = get_post(get_post_thumbnail_id())->post_content;
+			$thumb = "<p class='thumbnail'>" . get_the_post_thumbnail(null, 'full', array('class'=>'post_thumb'))  .
+			"<small>" . $desc . "</small></p>";
 		}
 		return $thumb . $content;
 	}
