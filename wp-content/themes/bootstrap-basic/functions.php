@@ -414,3 +414,15 @@ function custom_excerpt_length( $length ) {
 	return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+	/*
+	 * JLE : add post thumb before post content in detail page
+	 */
+	add_action('the_content', 'JLE_print_thumb', 9, 1);
+	function JLE_print_thumb($content) {
+		$thumb = "";
+		if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+			$thumb = get_the_post_thumbnail(null, 'full', array('class'=>'post_thumb'));
+		}
+		return $thumb . $content;
+	}
