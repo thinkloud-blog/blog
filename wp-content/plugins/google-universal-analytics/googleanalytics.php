@@ -5,7 +5,7 @@
 Plugin Name: Google Universal Analytics
 Plugin URI: http://wordpress.org/extend/plugins/google-universal-analytics/
 Description: Adds <a href="http://www.google.com/analytics/">Google Analytics</a> tracking code on all pages.
-Version: 2.3.3
+Version: 2.3.4
 Author: Audrius Dobilinskas
 Author URI: http://onlineads.lt/
 

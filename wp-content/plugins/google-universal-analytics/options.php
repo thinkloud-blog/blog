@@ -34,7 +34,7 @@
           <div class="checkbox">
             <label>
               <input type="checkbox" name="track_links" id="track_links" <?php if(get_option('track_links')=='on'): ?> checked="checked" <?php endif; ?>>
-              <?php echo __('Track events (<em>Downloads, Mailto & Outbound URLs</em>)', 'gua'); ?>  </label>
+              <?php echo __('Track events (<em>Downloads, Mailto, Outbound URLs & Phone calls tracking</em>)', 'gua'); ?>  </label>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
           <div class="checkbox">
             <label>
               <input type="checkbox" name="enable_display" id="enable_display" <?php if(get_option('enable_display')=='on'): ?> checked="checked" <?php endif; ?>>
-              <?php echo __('Enable Display Advertising', 'gua'); ?> </label>
+              <?php echo __('Enable Display Advertising (<em>Remarketing, Demographics and Interests</em>)', 'gua'); ?> </label>
           </div>
         </div>
       </div>
@@ -102,10 +102,10 @@
     </form>
   </div>
   <div class="clearfix"></div>
-  <div class="row col-lg-6"><?php echo __('Have a question? Drop it at', 'gua'); ?> <a href="http://onlineads.lt/?utm_source=WordPress&utm_medium=Google%20Universal%20Analytics%202.3.3&utm_content=Google%20Universal%20Analytics&utm_campaign=WordPress%20plugins" title="Google Universal Analytics">OnlineAds.lt</a> </div>
+  <div class="row col-lg-6"><?php echo __('Have a question? Drop it at', 'gua'); ?> <a href="http://onlineads.lt/?utm_source=WordPress&utm_medium=Google%20Universal%20Analytics%202.3.4&utm_content=Google%20Universal%20Analytics&utm_campaign=WordPress%20plugins" title="Google Universal Analytics">OnlineAds.lt</a> </div>
   
   </br></br>
-  <strong>Pro Tip:</strong> For periodic Google Analytics data reporting use <a href="https://nexusad.com/?utm_source=wordpress&utm_medium=Google%2BUniversal%2BAnalytics%2B2.3.3&utm_campaign=wp_plugins" title="nexusAd" target="_blank">nexusAd tool</a>.
+  <strong>Pro Tip:</strong> For periodic Google Analytics data reporting use <a href="https://nexusad.com/?utm_source=wordpress&utm_medium=Google%2BUniversal%2BAnalytics%2B2.3.4&utm_campaign=wp_plugins" title="nexusAd" target="_blank">nexusAd tool</a>.
   
 </div>
 </br>

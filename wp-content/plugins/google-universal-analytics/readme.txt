@@ -4,7 +4,7 @@ Donate link: http://onlineads.lt/
 Tags: javascript, tracking, google, analytics, universal, statistics, google analytics, universal analytics, google universal analytics, classic, custom, nexusad
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 2.3.3
+Stable tag: 2.3.4
 License: GPLv2 or later
 
 Adds the latest Google Universal Analytics JavaScript tracking code to your WordPress website. Many options!
@@ -15,10 +15,16 @@ Adding Google Analytics code to your website has never been easier. Simply copy 
 
 Why Google Universal Analytics is better than the usual Google Analytics? 
 
-* Custom dimensions & metrics;
-* Online/Offline data sync;
-* Multi-platform tracking;
-* Simplified configuration controls;
+* Event tracking (track downloads, mailto links, clicks on external URLs and Call tracking);
+* Remarketing;
+* Demographics and Interests reporting;
+* IP Anonymization;
+* Enhanced Link Attribution;
+* Custom domain configuration;
+* Disable Google Analytics tracking for specific WordPress users;
+* Older Google Analytics tracking available;
+* Tracking code customization;
+* Simplified user interface;
 * It is the new analytics standard set by Google;
 * ...and more.
 
@@ -65,6 +71,10 @@ Check it out [nexusAd tool](https://nexusad.com).
 1. Google Analytics and Google Universal Analytics compared.
 
 == Changelog ==
+
+= 2.3.4 =
+* Support for Gzip archive (.gz), Torrent (.torrent) and ComicBook Reader File (.cbr) tracking (event tracking) added.
+* Clicks on phone numbers (tel:...) are now tracked as events. 
 
 = 2.3.3 =
 * Enhanced Link Attribution feature added. 
@@ -121,6 +131,10 @@ Check it out [nexusAd tool](https://nexusad.com).
 * Initial release.
 
 == Upgrade Notice ==
+
+= 2.3.4 =
+* Support for Gzip archive (.gz), Torrent (.torrent) and ComicBook Reader File (.cbr) tracking (event tracking) added.
+* Clicks on phone numbers (tel:...) are now tracked as events. 
 
 = 2.3.3 =
 * New feature: Enhanced Link Attribution 
