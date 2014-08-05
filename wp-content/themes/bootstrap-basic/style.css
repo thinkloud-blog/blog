@@ -199,6 +199,9 @@ blockquote, q {
 	font-style : italic;
 	font-size	: 90% !important;
 }
+blockquote blockquote {
+	border-left: 0;
+}
 body .btn {
 	font-family	: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size	: 100%;
@@ -207,14 +210,14 @@ body .btn {
 	color	: #000 !important;
 }
 
-body {
+html body {
 	background	: url(img/bg.bleu_.jpg) #2f435c left bottom repeat-x;
 	background-attachment: fixed;
 }
 
 #main {
 /*	background	: rgba(100, 122, 148, 0.83);*/
-	background	: rgba(55, 74, 104, 0.75);
+	background	: rgba(55, 74, 104, 0.83);
 	padding	: 15px;
 }
 #main-column {/*
